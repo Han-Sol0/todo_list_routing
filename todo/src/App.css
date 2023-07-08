@@ -1,0 +1,26 @@
+.Do {
+  display: flex;
+  justify-content: space-between;
+  margin:  5px;
+  border: 1px solid #ed6742;
+  background-color: antiquewhite;
+
+}
+.made {
+  background-color: green;
+}
+.noMade {
+  background-color: red;
+}
+
+.case {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.active {
+  display: block
+}
