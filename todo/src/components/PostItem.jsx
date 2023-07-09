@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import {Link} from 'react-router-dom';
 
 export const PostItem = ({
   id,
@@ -21,8 +21,6 @@ export const PostItem = ({
     handleUpdate(id, data);
     setIsEdit((prevState) => !prevState);
   };
-
-  const [activeState, setActiveState] = useState(false);
   return (
     <div
       style={{
@@ -35,7 +33,7 @@ export const PostItem = ({
         {isEdit ? (
           <input value={postValue} onChange={handleChange} />
         ) : (
-          <p className={`case ${activeState ? 'active' : ''}`} onClick={() => {setActiveState(!activeState)}}>{postValue}</p>
+          <Link to={`/${id}`}><p>{postValue}</p></Link>
         )}
       </div>
       <input

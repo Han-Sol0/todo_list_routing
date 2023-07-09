@@ -6,24 +6,19 @@
       "completed": true
     },
     {
-      "title": "Новая заметка",
-      "completed": false,
-      "id": 5
-    },
-    {
-      "title": "Стих как литературоведческий термин обозначает стихотворную строку с упорядоченным делением на стопы и фиксированным ударением в каждой стопе. Стихотворением считается небольшое, чаще всего лирическое произведение, написанное стихами.",
-      "completed": false,
-      "id": 6
-    },
-    {
       "title": "z",
       "completed": false,
       "id": 7
     },
     {
-      "title": "Новая заметка3 efgerngioer gnerjgoer jmoemgopr eopmfmeogopemdlfmwe e mrgmre mdflrom frler lmerglergm erg",
+      "title": "Новая заметка",
       "completed": false,
       "id": 8
+    },
+    {
+      "title": "Новая заметка",
+      "completed": false,
+      "id": 9
     }
   ]
 }
