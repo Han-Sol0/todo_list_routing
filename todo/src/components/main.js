@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import {PostItem}  from "./PostItem.jsx";
+import { PostItem } from "./PostItem.jsx";
 import { useDebounce } from "../usehooks";
-
 
 export const Main = () => {
     const [data, setData] = useState([]);
@@ -103,4 +102,6 @@ export const Main = () => {
             >
                 Отправить Пост
             </button>
-        </div>)}
+        </div>
+    );
+};
